@@ -2,6 +2,41 @@ html, body {
   margin: 0;
   padding: 0;
 }
-canvas {
-  display: block;
+
+.sliderr {
+  -webkit-appearance: none;
+   
+  width: 24%;
+  height: 15px;
+  background:linear-gradient(to right, white,  red);
+  opacity: 0.8;
+  
 }
+.sliderg {
+  -webkit-appearance: none;
+   
+  width: 24%;
+  height: 15px;
+  background:linear-gradient(to right, white,  green);  
+  opacity: 0.8;
+  
+}
+.slidergr {
+  -webkit-appearance: none;
+   
+  width: 24%;
+  height: 15px;
+  background:linear-gradient(to right, white,  black);  
+  opacity: 0.8;
+  
+}
+
+.sliderb {
+  -webkit-appearance: none;
+  width: 24%;
+  height: 15px;
+  background:linear-gradient(to right, white,  blue);
+  opacity:0.8;
+ 
+}
+
